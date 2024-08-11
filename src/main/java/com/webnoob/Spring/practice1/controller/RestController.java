@@ -10,7 +10,7 @@ import java.util.Map;
 
 @org.springframework.web.bind.annotation.RestController
 
-@RequestMapping("/journel")
+@RequestMapping("/_journel")
 public class RestController {
 
     private Map<Integer,DataEntity> data = new HashMap<>();
